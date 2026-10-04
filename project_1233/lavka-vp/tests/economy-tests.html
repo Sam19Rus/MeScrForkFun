@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Лавка древностей — экономические тесты (MVP-A)</title>
+<style>
+ body{font-family:monospace;background:#241a12;color:#efe3cc;padding:24px;line-height:1.6}
+ table{border-collapse:collapse;margin-top:12px}
+ td,th{border:1px solid #8d6e4c;padding:6px 12px;text-align:left}
+ .pass{color:#7fff9a}.fail{color:#ff7f7f}
+ h1{color:#c9a227}
+</style>
+</head>
+<body>
+<h1>Экономические тесты config/items</h1>
+<div id="out">Запуск…</div>
+<script src="../js/data.js"></script>
+<script src="../js/economy.js"></script>
+<script>
+(function(){
+  const E = window.Economy, C = window.CONFIG;
+  const results = [];
+  function check(name, cond, details){ results.push({name, pass: !!cond, details}); }
+
+  // 1. χ²-тест распределения редкостей (50 000 роллов, seeded)
+  const rnd = E.mulberry32(12345);
+  const counts = {junk:0,common:0,rare:0,epic:0,legend:0};
+  const N = 50000;
+  for (let i=0;i<N;i++) counts[E.rollRarity('T1', rnd)]++;
+  let chi2 = 0;
+  for (const k of Object.keys(counts)) {
+    const exp = C.tiers.T1.p[k]*N;
+    chi2 += Math.pow(counts[k]-exp,2)/exp;
+  }
+  check('χ² дропа T1 (df=4, крит. 9.49 при p=0.05)', chi2 < 9.49,
+    'χ²=' + chi2.toFixed(2) + ' · факт: ' + JSON.stringify(counts));
+
+  // 2. EV яруса T1 (ожидание из каталога ≈ 215–216 при restore×0.97)
+  const ev = E.expectedValue('T1', 0.97);
+  check('EV(T1) ≈ 216 ±6%', Math.abs(ev - 216) < 216*0.06, 'EV=' + ev.toFixed(1));
+  const ev0 = E.expectedValue('T1', 1.0);
+  check('EV/цена T1 в коридоре 1.35–1.60', ev0/C.tiers.T1.cost >= 1.35 && ev0/C.tiers.T1.cost <= 1.60,
+    (ev0/C.tiers.T1.cost).toFixed(2));
+
+  // 3. качество → множитель (границы 0.6–1.2)
+  check('q(0.55)=0', E.qualityFromProgress(0.55) === 0);
+  check('q(0.97)=1', Math.abs(E.qualityFromProgress(0.97) - 1) < 1e-9);
+  check('q(0.76)≈0.5', Math.abs(E.qualityFromProgress(0.76) - 0.5) < 0.01);
+  check('mult(0)=0.6', Math.abs(E.priceMultiplier(0) - 0.6) < 1e-9);
+  check('mult(1)=1.2', Math.abs(E.priceMultiplier(1) - 1.2) < 1e-9);
+
+  // 4. цена лота в спреде
+  let minP = 1e9, maxP = 0;
+  for (let i=0;i<2000;i++){ const p = E.lotPrice('T1', rnd); minP = Math.min(minP,p); maxP = Math.max(maxP,p); }
+  check('цена лота 150±12%', minP >= 132 && maxP <= 168, `min=${minP} max=${maxP}`);
+
+  // 5. keep/dup доли
+  check('keep=35% от продажи', E.keepValue(1000) === 350);
+  check('dup=40% от продажи', E.dupValue(1000) === 400);
+
+  // 6. каталог: целостность
+  check('каталог 15–20 предметов', window.ITEMS.length >= 15 && window.ITEMS.length <= 20, 'n=' + window.ITEMS.length);
+  const ids = new Set(window.ITEMS.map(i=>i.id));
+  check('id уникальны', ids.size === window.ITEMS.length);
+  let storyOk = true, svgOk = true, valOk = true;
+  window.ITEMS.forEach(i => {
+    if (!i.story || i.story.length < 40) storyOk = false;
+    if (!i.svg || !i.svg.startsWith('<svg')) svgOk = false;
+    if (!(i.value[0] > 0 && i.value[1] >= i.value[0])) valOk = false;
+    if (!window.CONFIG.rarityLabels[i.rarity]) valOk = false;
+  });
+  check('у всех предметов история ≥40 симв.', storyOk);
+  check('у всех предметов svg', svgOk);
+  check('стоимости/редкости валидны', valOk);
+  const ftueOk = C.ftue.scripted.every(s => window.ITEMS_BY_ID[s.item]);
+  check('FTUE-скрипт ссылается на существующие предметы', ftueOk);
+
+  // рендер
+  const out = document.getElementById('out');
+  const passed = results.filter(r=>r.pass).length;
+  out.innerHTML = `<p>Пройдено: <b class="${passed===results.length?'pass':'fail'}">${passed}/${results.length}</b></p>
+    <table><tr><th>Тест</th><th>Результат</th><th>Детали</th></tr>` +
+    results.map(r=>`<tr><td>${r.name}</td><td class="${r.pass?'pass':'fail'}">${r.pass?'PASS':'FAIL'}</td><td>${r.details||''}</td></tr>`).join('') + '</table>';
+  console.table(results.map(r=>({test:r.name, pass:r.pass, details:r.details})));
+})();
+</script>
+</body>
+</html>
