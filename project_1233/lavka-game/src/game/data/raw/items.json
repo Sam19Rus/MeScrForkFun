@@ -1,0 +1,692 @@
+[
+ {
+  "id": "phone",
+  "name": "Дисковый телефон",
+  "cat": "tech",
+  "rarity": "common",
+  "value": [
+   50,
+   130
+  ],
+  "restore": "clean",
+  "clues": {
+   "material": "бакелит",
+   "weight": "тяжёлый",
+   "marking": "стертое клеймо завода",
+   "seller": "«Гудел до последних хозяев»"
+  },
+  "story": "Аппарат, у которого каждую цифру надо было заслужить: диск возвращался с благородным «вжжж». Номер «07» набирался дольше всех — и все об этом знали.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"42\" y=\"108\" width=\"116\" height=\"52\" rx=\"12\" fill=\"#b5533c\"/><circle cx=\"100\" cy=\"134\" r=\"20\" fill=\"#efe3cc\"/><circle cx=\"100\" cy=\"134\" r=\"6\" fill=\"#5a4632\" stroke=\"none\"/><path d=\"M50 104 q10 -26 50 -26 q40 0 50 26\" stroke-width=\"14\" stroke=\"#b5533c\"/><path d=\"M58 96 h18 M124 96 h18\" stroke-width=\"6\"/></svg>"
+ },
+ {
+  "id": "camera",
+  "name": "Плёночный фотоаппарат",
+  "cat": "tech",
+  "rarity": "rare",
+  "value": [
+   260,
+   600
+  ],
+  "restore": "clean",
+  "set": "tech",
+  "clues": {
+   "material": "металл и стекло",
+   "weight": "средний",
+   "marking": "гравировка «ЗОМЗ»",
+   "seller": "«Лежал в кожаном чехле»"
+  },
+  "story": "Тридцать шесть кадров — и ни одного дубля. Именно поэтому каждый снимок, сделанный этим аппаратом, кто-то хранил потом всю жизнь в альбоме с уголками.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"34\" y=\"72\" width=\"132\" height=\"84\" rx=\"12\" fill=\"#8d887c\"/><rect x=\"72\" y=\"58\" width=\"42\" height=\"16\" rx=\"5\" fill=\"#b9b2a4\"/><circle cx=\"100\" cy=\"114\" r=\"30\" fill=\"#3a3f45\"/><circle cx=\"100\" cy=\"114\" r=\"18\" fill=\"#cfe0e0\" opacity=\".8\"/><circle cx=\"90\" cy=\"104\" r=\"5\" fill=\"#fff\" opacity=\".7\" stroke=\"none\"/><rect x=\"140\" y=\"84\" width=\"16\" height=\"12\" rx=\"3\" fill=\"#d9b23f\"/></svg>"
+ },
+ {
+  "id": "reel",
+  "name": "Катушечный магнитофон",
+  "cat": "tech",
+  "rarity": "epic",
+  "value": [
+   900,
+   1800
+  ],
+  "restore": "clean",
+  "set": "tech",
+  "fixture": null,
+  "clues": {
+   "material": "дерево и металл",
+   "weight": "очень тяжёлый",
+   "marking": "шильдик «Маяк»",
+   "seller": "«Работал! Точно работал»"
+  },
+  "story": "Запись песни с радио была священным ритуалом: все замирали, телефон — под подушку, дышать через раз. Щёлк — и у семьи появлялся собственный концерт.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"30\" y=\"58\" width=\"140\" height=\"86\" rx=\"10\" fill=\"#c8a97e\"/><circle cx=\"72\" cy=\"98\" r=\"24\" fill=\"#efe3cc\"/><circle cx=\"128\" cy=\"98\" r=\"24\" fill=\"#efe3cc\"/><circle cx=\"72\" cy=\"98\" r=\"7\" fill=\"#5a4632\" stroke=\"none\"/><circle cx=\"128\" cy=\"98\" r=\"7\" fill=\"#5a4632\" stroke=\"none\"/><path d=\"M72 74 h56\" stroke-width=\"4\"/><rect x=\"46\" y=\"150\" width=\"108\" height=\"14\" rx=\"6\" fill=\"#8d887c\"/><circle cx=\"60\" cy=\"157\" r=\"3\" fill=\"#b5533c\" stroke=\"none\"/><circle cx=\"140\" cy=\"157\" r=\"3\" fill=\"#6e7f6a\" stroke=\"none\"/></svg>"
+ },
+ {
+  "id": "radiola",
+  "name": "Ламповая радиола",
+  "cat": "tech",
+  "rarity": "legend",
+  "value": [
+   4000,
+   9000
+  ],
+  "restore": "polish",
+  "set": "tech",
+  "fixture": "radiola",
+  "clues": {
+   "material": "полированное дерево",
+   "weight": "неподъёмный",
+   "marking": "паспорт на задней крышке",
+   "seller": "«Из профессорской квартиры»"
+  },
+  "story": "Гордость квартиры: проигрыватель и приёмник в одном корпусе. Утром — новости, вечером — джаз, а в Новый год не решались включать ничего, кроме неё.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"28\" y=\"52\" width=\"144\" height=\"98\" rx=\"10\" fill=\"#a67c52\"/><rect x=\"40\" y=\"64\" width=\"60\" height=\"56\" rx=\"6\" fill=\"#c8a97e\"/><path d=\"M46 72 v40 M58 72 v40 M70 72 v40 M82 72 v40 M94 72 v40\" stroke-width=\"3\"/><circle cx=\"134\" cy=\"92\" r=\"22\" fill=\"#efe3cc\"/><circle cx=\"134\" cy=\"92\" r=\"6\" fill=\"#5a4632\" stroke=\"none\"/><rect x=\"112\" y=\"126\" width=\"46\" height=\"12\" rx=\"5\" fill=\"#d9b23f\"/><path d=\"M42 150 l-6 22 M158 150 l6 22\" stroke-width=\"7\"/></svg>"
+ },
+ {
+  "id": "player",
+  "name": "Проигрыватель пластинок",
+  "cat": "tech",
+  "rarity": "common",
+  "value": [
+   70,
+   160
+  ],
+  "restore": "clean",
+  "set": "tech",
+  "clues": {
+   "material": "дерево, пластик",
+   "weight": "средний",
+   "seller": "«Игла в комплекте»",
+   "marking": "нет"
+  },
+  "story": "Ставишь пластинку, опускаешь тонарм — и комната становится другой. Иглу берегли как зеницу: одна царапина на весь вечер воспоминаний.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"36\" y=\"70\" width=\"128\" height=\"84\" rx=\"8\" fill=\"#c8a97e\"/><circle cx=\"88\" cy=\"112\" r=\"30\" fill=\"#3a3f45\"/><circle cx=\"88\" cy=\"112\" r=\"4\" fill=\"#d9b23f\"/><path d=\"M88 112 m-22 0 a22 22 0 0 1 22 -22\" stroke-width=\"2\"/><path d=\"M140 84 l-30 20\" stroke-width=\"6\"/><circle cx=\"142\" cy=\"82\" r=\"6\" fill=\"#b9b2a4\"/></svg>"
+ },
+ {
+  "id": "typewriter",
+  "name": "Печатная машинка",
+  "cat": "tech",
+  "rarity": "rare",
+  "value": [
+   300,
+   650
+  ],
+  "restore": "assemble",
+  "set": "tech",
+  "clues": {
+   "material": "чугун",
+   "weight": "очень тяжёлая",
+   "marking": "«Ять» на клавише",
+   "seller": "«Печатала диссертации всему подъезду»"
+  },
+  "story": "Каждый удар клавиши — маленький выстрел по бумаге. Ошибка стоила листа: корректором служила спичка с лезвием и железные нервы.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"34\" y=\"96\" width=\"132\" height=\"56\" rx=\"10\" fill=\"#3a3f45\"/><rect x=\"52\" y=\"66\" width=\"96\" height=\"34\" rx=\"6\" fill=\"#b9b2a4\"/><path d=\"M58 74 h84\" stroke-width=\"3\"/><g fill=\"#efe3cc\"><circle cx=\"58\" cy=\"118\" r=\"6\"/><circle cx=\"75\" cy=\"118\" r=\"6\"/><circle cx=\"92\" cy=\"118\" r=\"6\"/><circle cx=\"109\" cy=\"118\" r=\"6\"/><circle cx=\"126\" cy=\"118\" r=\"6\"/><circle cx=\"143\" cy=\"118\" r=\"6\"/><circle cx=\"66\" cy=\"136\" r=\"6\"/><circle cx=\"83\" cy=\"136\" r=\"6\"/><circle cx=\"100\" cy=\"136\" r=\"6\"/><circle cx=\"117\" cy=\"136\" r=\"6\"/><circle cx=\"134\" cy=\"136\" r=\"6\"/></g><rect x=\"60\" y=\"52\" width=\"80\" height=\"10\" rx=\"4\" fill=\"#d9b23f\"/></svg>"
+ },
+ {
+  "id": "cplayer",
+  "name": "Кассетный плеер",
+  "cat": "tech",
+  "rarity": "common",
+  "value": [
+   50,
+   130
+  ],
+  "restore": "clean",
+  "clues": {
+   "material": "пластик",
+   "weight": "лёгкий",
+   "marking": "надпись маркером «МОЙ»",
+   "seller": "«С наушниками»"
+  },
+  "story": "Батареек хватало на два часа, а радости — на всю дорогу до школы. Функцию «перемотай карандашом» производитель заложил сам, просто скромно не написал об этом.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"58\" y=\"34\" width=\"84\" height=\"132\" rx=\"10\" fill=\"#8d887c\"/><rect x=\"70\" y=\"48\" width=\"60\" height=\"44\" rx=\"6\" fill=\"#efe3cc\"/><circle cx=\"86\" cy=\"70\" r=\"9\"/><circle cx=\"114\" cy=\"70\" r=\"9\"/><rect x=\"70\" y=\"102\" width=\"60\" height=\"10\" rx=\"4\" fill=\"#3a3f45\"/><circle cx=\"100\" cy=\"136\" r=\"12\" fill=\"#6e7f6a\"/><path d=\"M142 50 h16 v30 h-16\" stroke-width=\"5\"/></svg>"
+ },
+ {
+  "id": "console",
+  "name": "Игровая приставка",
+  "cat": "tech",
+  "rarity": "rare",
+  "value": [
+   260,
+   600
+  ],
+  "restore": "clean",
+  "clues": {
+   "material": "пластик, провода",
+   "weight": "средний",
+   "seller": "«Джойстик в наборе»",
+   "marking": "желтая от времени"
+  },
+  "story": "Подключалась к телевизору через тот самый разъём, который «надо покрутить». Во дворах страны из-за неё часами звучало одно и то же: «Дай поиграть! Я только один раз!»",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"30\" y=\"86\" width=\"140\" height=\"58\" rx=\"10\" fill=\"#4a4f55\"/><rect x=\"44\" y=\"70\" width=\"60\" height=\"20\" rx=\"4\" fill=\"#8d887c\"/><path d=\"M66 116 h-10 v-10 h-8 v10 h-10 v8 h10 v10 h8 v-10 h10 z\" fill=\"#efe3cc\" transform=\"translate(14,0)\"/><circle cx=\"132\" cy=\"108\" r=\"8\" fill=\"#b5533c\"/><circle cx=\"152\" cy=\"118\" r=\"8\" fill=\"#6e7f6a\"/><path d=\"M46 144 q-14 20 -30 16\" stroke-width=\"5\"/></svg>"
+ },
+ {
+  "id": "watch",
+  "name": "Золотые карманные часы",
+  "cat": "clocks",
+  "rarity": "legend",
+  "value": [
+   4000,
+   9000
+  ],
+  "restore": "polish",
+  "set": "clocks",
+  "fixture": "watch",
+  "clues": {
+   "material": "тяжёлый металл, жёлтый",
+   "weight": "увесистые",
+   "marking": "дарственная гравировка внутри",
+   "seller": "«Ходят. До сих пор»"
+  },
+  "story": "Их передавали «когда подрастёт старший». На внутренней крышке выцарапано перочинным ножом: «Не опаздывай, но и не торопись» — завещание лучше не придумать.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"112\" r=\"52\" fill=\"#d9b23f\"/><circle cx=\"100\" cy=\"112\" r=\"40\" fill=\"#efe3cc\"/><path d=\"M100 88 v24 l16 10\" stroke-width=\"5\"/><rect x=\"92\" y=\"48\" width=\"16\" height=\"12\" rx=\"4\" fill=\"#d9b23f\"/><circle cx=\"100\" cy=\"40\" r=\"9\"/><path d=\"M108 34 q30 -14 44 6\" stroke-width=\"4\"/></svg>"
+ },
+ {
+  "id": "cuckoo",
+  "name": "Ходики с кукушкой",
+  "cat": "clocks",
+  "rarity": "epic",
+  "value": [
+   900,
+   1800
+  ],
+  "restore": "assemble",
+  "set": "clocks",
+  "fixture": "cuckoo",
+  "clues": {
+   "material": "дерево",
+   "weight": "громоздкие",
+   "seller": "«Кукушка молчит, но дверца открывается»",
+   "marking": "циферблат эмалевый"
+  },
+  "story": "Часы, которые жили в доме громче всех. Кукушка потеряла голос ещё в семидесятые, но дверцу по привычке открывала исправно — ровно в восемь утра.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M52 78 L100 36 L148 78 v84 h-96 z\" fill=\"#a67c52\"/><circle cx=\"100\" cy=\"104\" r=\"26\" fill=\"#efe3cc\"/><path d=\"M100 88 v16 l12 8\" stroke-width=\"4\"/><rect x=\"86\" y=\"138\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#c8a97e\"/><path d=\"M100 162 v22 M88 184 h24\" stroke-width=\"4\"/><circle cx=\"88\" cy=\"192\" r=\"7\" fill=\"#d9b23f\"/><circle cx=\"112\" cy=\"192\" r=\"7\" fill=\"#d9b23f\"/></svg>"
+ },
+ {
+  "id": "alarm",
+  "name": "Будильник «Заря»",
+  "cat": "clocks",
+  "rarity": "common",
+  "value": [
+   50,
+   120
+  ],
+  "restore": "clean",
+  "set": "clocks",
+  "clues": {
+   "material": "жесть",
+   "weight": "лёгкий",
+   "marking": "цена «1 р. 20 к.»",
+   "seller": "«Звонил так, что соседи просили»"
+  },
+  "story": "Поднимал всю коммуналку ровно в шесть пятнадцать. Кнопка «ещё пять минут» существовала только в воображении владельцев.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"104\" r=\"48\" fill=\"#b5533c\"/><circle cx=\"100\" cy=\"104\" r=\"36\" fill=\"#efe3cc\"/><path d=\"M100 84 v20 l14 8\" stroke-width=\"4\"/><circle cx=\"66\" cy=\"62\" r=\"12\" fill=\"#d9b23f\"/><circle cx=\"134\" cy=\"62\" r=\"12\" fill=\"#d9b23f\"/><path d=\"M74 146 l-8 18 M126 146 l8 18\" stroke-width=\"6\"/></svg>"
+ },
+ {
+  "id": "scales",
+  "name": "Аптекарские весы",
+  "cat": "clocks",
+  "rarity": "common",
+  "value": [
+   60,
+   140
+  ],
+  "restore": "assemble",
+  "set": "clocks",
+  "clues": {
+   "material": "латунь",
+   "weight": "средний",
+   "seller": "«С гирьками»",
+   "marking": "клеймо поверки"
+  },
+  "story": "Взвешивали до миллиграмма: мука для кулича, порошок от головы, конфеты «Мишка на севере» по десять грамм. Точность была вопросом совести.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"60\" y=\"150\" width=\"80\" height=\"12\" rx=\"4\" fill=\"#a67c52\"/><path d=\"M100 150 v-56\" stroke-width=\"7\"/><path d=\"M56 94 h88\" stroke-width=\"6\"/><path d=\"M56 94 l-16 30 h32 z\" fill=\"#d9b23f\"/><path d=\"M144 94 l-16 30 h32 z\" fill=\"#d9b23f\"/><circle cx=\"100\" cy=\"94\" r=\"7\" fill=\"#8d887c\"/><path d=\"M100 108 v14\" stroke-width=\"3\"/><circle cx=\"100\" cy=\"126\" r=\"5\" fill=\"#d9b23f\"/></svg>"
+ },
+ {
+  "id": "compass",
+  "name": "Геодезический компас",
+  "cat": "clocks",
+  "rarity": "rare",
+  "value": [
+   280,
+   620
+  ],
+  "restore": "polish",
+  "set": "clocks",
+  "clues": {
+   "material": "латунь и стекло",
+   "weight": "увесистый",
+   "marking": "«Азимут», номер на крышке",
+   "seller": "«Из экспедиции 60-х»"
+  },
+  "story": "С этим компасом ходили в Хибины и на Памир. Стрелка до сих пор уверенно показывает север — единственное, в чём этот мир абсолютно надёжен.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"100\" cy=\"106\" r=\"50\" fill=\"#d9b23f\"/><circle cx=\"100\" cy=\"106\" r=\"38\" fill=\"#efe3cc\"/><path d=\"M100 76 l10 30 l-10 30 l-10 -30 z\" fill=\"#b5533c\" stroke-width=\"3\"/><path d=\"M100 76 l10 30 h-20 z\" fill=\"#3a3f45\" stroke-width=\"2\"/><text x=\"100\" y=\"66\" text-anchor=\"middle\" font-size=\"16\" fill=\"#5a4632\" stroke=\"none\">С</text><rect x=\"88\" y=\"44\" width=\"24\" height=\"10\" rx=\"4\" fill=\"#8d887c\"/></svg>"
+ },
+ {
+  "id": "sewing",
+  "name": "Швейная машина",
+  "cat": "clocks",
+  "rarity": "epic",
+  "value": [
+   900,
+   1700
+  ],
+  "restore": "assemble",
+  "set": "clocks",
+  "fixture": "sewing",
+  "clues": {
+   "material": "чугун, дуб",
+   "weight": "неподъёмная",
+   "marking": "заводской номер на станине",
+   "seller": "«Шила всей пятиэтажке»"
+  },
+  "story": "Под её стрекот выросло три поколения: школьная форма, платья на выпускной, латки на коленках. Педаль ходила так ровно, будто машина дышала.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"40\" y=\"140\" width=\"120\" height=\"16\" rx=\"4\" fill=\"#a67c52\"/><path d=\"M56 140 v-44 h88 v16 h-64 v28 z\" fill=\"#3a3f45\"/><circle cx=\"150\" cy=\"104\" r=\"12\" fill=\"#b9b2a4\"/><path d=\"M72 96 l10 22\" stroke-width=\"5\"/><rect x=\"62\" y=\"118\" width=\"26\" height=\"8\" rx=\"3\" fill=\"#b9b2a4\"/><path d=\"M96 156 v22 M124 156 v22\" stroke-width=\"5\"/><path d=\"M150 116 q14 20 -6 34\" stroke-width=\"4\"/></svg>"
+ },
+ {
+  "id": "binoculars",
+  "name": "Бинокль театральный",
+  "cat": "clocks",
+  "rarity": "rare",
+  "value": [
+   260,
+   580
+  ],
+  "restore": "polish",
+  "set": "clocks",
+  "clues": {
+   "material": "перламутр и латунь",
+   "weight": "лёгкий",
+   "seller": "«В футляре с бархатом»",
+   "marking": "оптик «ВОМЗ»"
+  },
+  "story": "Из ложи бельэтажа в него было видно, кто в антракте с кем здоровается. Главный светский инструмент прошлого века.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"72\" cy=\"96\" r=\"26\" fill=\"#d9b23f\"/><circle cx=\"128\" cy=\"96\" r=\"26\" fill=\"#d9b23f\"/><circle cx=\"72\" cy=\"96\" r=\"14\" fill=\"#cfe0e0\"/><circle cx=\"128\" cy=\"96\" r=\"14\" fill=\"#cfe0e0\"/><rect x=\"88\" y=\"88\" width=\"24\" height=\"16\" rx=\"4\" fill=\"#8d887c\"/><path d=\"M72 122 v20 M128 122 v20\" stroke-width=\"8\"/></svg>"
+ },
+ {
+  "id": "samovar",
+  "name": "Самовар",
+  "cat": "home",
+  "rarity": "rare",
+  "value": [
+   280,
+   620
+  ],
+  "restore": "polish",
+  "set": "home",
+  "clues": {
+   "material": "латунь",
+   "weight": "тяжёлый",
+   "marking": "«Товарищество Баташевых»",
+   "seller": "«Грелся, как зверь»"
+  },
+  "story": "Тульская фабрика, начало прошлого века. Закипал за три минуты, а вокруг него за полчаса собиралась вся семья — в этом и был главный его механизм.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M62 66 q-14 48 0 78 q20 14 38 14 q18 0 38 -14 q14 -30 0 -78 q-38 -12 -76 0 z\" fill=\"#d9b23f\"/><rect x=\"84\" y=\"40\" width=\"32\" height=\"18\" rx=\"4\" fill=\"#d9b23f\"/><circle cx=\"100\" cy=\"34\" r=\"8\" fill=\"#d9b23f\"/><path d=\"M138 128 h22 v10 h-22\" fill=\"#d9b23f\"/><path d=\"M62 84 q-18 8 -14 28 q2 12 14 14 M138 84 q18 8 14 28 q-2 12 -14 14\" stroke-width=\"7\"/><path d=\"M76 158 l-8 20 M124 158 l8 20\" stroke-width=\"6\"/></svg>"
+ },
+ {
+  "id": "kerosene",
+  "name": "Керосиновая лампа",
+  "cat": "home",
+  "rarity": "rare",
+  "value": [
+   260,
+   600
+  ],
+  "restore": "clean",
+  "set": "home",
+  "clues": {
+   "material": "стекло и жестянка",
+   "weight": "средний",
+   "seller": "«Стекло целое — редкость»",
+   "marking": "нет"
+  },
+  "story": "У керосиновой лампы свет мягкий и тёплый, почти живой. При этом свете кто-то делал уроки, кто-то штопал, а кто-то написал своё первое письмо — и так и не отправил.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M88 62 q-8 -22 12 -30 q-6 14 6 18 q10 4 8 14\" stroke=\"#d9b23f\" fill=\"#d9b23f\" stroke-width=\"4\"/><path d=\"M84 62 h32 l6 34 q-22 8 -44 0 z\" fill=\"#cfe0e0\" opacity=\".75\"/><path d=\"M70 100 q30 10 60 0 l6 44 q-36 12 -72 0 z\" fill=\"#b9b2a4\"/><circle cx=\"76\" cy=\"118\" r=\"7\" fill=\"#d9b23f\"/><path d=\"M70 144 q30 10 60 0\" stroke-width=\"4\"/></svg>"
+ },
+ {
+  "id": "iron",
+  "name": "Чугунный утюг",
+  "cat": "home",
+  "rarity": "common",
+  "value": [
+   50,
+   130
+  ],
+  "restore": "clean",
+  "set": "home",
+  "clues": {
+   "material": "чугун",
+   "weight": "пудовый",
+   "seller": "«Бабушкин»",
+   "marking": "клеймо литейщиков"
+  },
+  "story": "Весит три килограмма и требует твёрдой руки. Нагревался в печи — вся инструкция к нему состояла из одной фразы: «за железо не хватайся».",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M44 138 h112 l-28 -56 h-56 z\" fill=\"#8d887c\"/><path d=\"M72 76 q28 -30 56 0\" stroke-width=\"9\"/><path d=\"M44 138 q56 16 112 0\" stroke-width=\"5\"/><circle cx=\"100\" cy=\"104\" r=\"5\" fill=\"#5a4632\" stroke=\"none\"/></svg>"
+ },
+ {
+  "id": "spindle",
+  "name": "Прялка",
+  "cat": "home",
+  "rarity": "common",
+  "value": [
+   50,
+   130
+  ],
+  "restore": "assemble",
+  "set": "home",
+  "clues": {
+   "material": "дерево",
+   "weight": "громоздкая",
+   "seller": "«С чердака избы»",
+   "marking": "резьба по гребню"
+  },
+  "story": "Вечера у окна, гудение колеса и бесконечные разговоры ни о чём. На этой прялке связали едва ли не половину деревенских носков — тёплых, колючих, неубиваемых.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"76\" cy=\"76\" r=\"44\" stroke-width=\"8\" stroke=\"#a67c52\"/><path d=\"M76 32 v88 M32 76 h88 M45 45 l62 62 M107 45 l-62 62\" stroke-width=\"4\"/><path d=\"M118 120 h50 v40 h-50 z\" fill=\"#c8a97e\"/><path d=\"M96 120 l20 -20 M140 160 l24 16\" stroke-width=\"5\"/></svg>"
+ },
+ {
+  "id": "sugar",
+  "name": "Сахарница с росписью",
+  "cat": "home",
+  "rarity": "common",
+  "value": [
+   60,
+   140
+  ],
+  "restore": "clean",
+  "set": "home",
+  "clues": {
+   "material": "фарфор",
+   "weight": "лёгкая",
+   "seller": "«Крышка на месте!»",
+   "marking": "синее клеймо завода"
+  },
+  "story": "В таких держали сахар «к чаю для гостей», а everyday-чай пили с вареньем. Роспись слегка стёрта от рук — значит, гостей было много.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M56 96 q44 -18 88 0 q8 34 -10 50 q-34 16 -68 0 q-18 -16 -10 -50 z\" fill=\"#efe3cc\"/><ellipse cx=\"100\" cy=\"94\" rx=\"46\" ry=\"12\" fill=\"#efe3cc\"/><circle cx=\"100\" cy=\"80\" r=\"9\" fill=\"#7d9ab1\"/><path d=\"M70 112 q8 8 0 16 M100 116 q8 8 0 16 M128 112 q8 8 0 16\" stroke-width=\"3\" stroke=\"#7d9ab1\"/></svg>"
+ },
+ {
+  "id": "photoalbum",
+  "name": "Фотоальбом в бархате",
+  "cat": "home",
+  "rarity": "rare",
+  "value": [
+   280,
+   600
+  ],
+  "restore": "clean",
+  "set": "home",
+  "clues": {
+   "material": "бархат, картон",
+   "weight": "увесистый",
+   "seller": "«Внутри фотографии — не выбрасывайте!»",
+   "marking": "уголки тиснёные"
+  },
+  "story": "Сто лет семейной истории в уголках «под фото»: прадед в шинели, мама на первом курсе, дача, которой больше нет. Чужие лица — и почему-то родные.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"48\" y=\"52\" width=\"104\" height=\"120\" rx=\"8\" fill=\"#b5533c\"/><rect x=\"60\" y=\"64\" width=\"80\" height=\"96\" rx=\"4\" fill=\"#efe3cc\" stroke-width=\"4\"/><rect x=\"72\" y=\"78\" width=\"56\" height=\"42\" rx=\"3\" fill=\"#b9b2a4\"/><path d=\"M72 134 h56 M72 146 h40\" stroke-width=\"4\"/><circle cx=\"100\" cy=\"99\" r=\"10\" fill=\"#a67c52\"/></svg>"
+ },
+ {
+  "id": "books",
+  "name": "Собрание сочинений",
+  "cat": "home",
+  "rarity": "common",
+  "value": [
+   55,
+   130
+  ],
+  "restore": "clean",
+  "set": "home",
+  "clues": {
+   "material": "бумага, коленкор",
+   "weight": "тяжёлая стопка",
+   "seller": "«Десять томов, все на месте»",
+   "marking": "экслибрис на форзаце"
+  },
+  "story": "Книги держали не для чтения — их было не достать. Собрание сочинений на полке было знаком: в доме живут уважаемые люди.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"52\" y=\"60\" width=\"26\" height=\"104\" rx=\"4\" fill=\"#b5533c\"/><rect x=\"82\" y=\"52\" width=\"26\" height=\"112\" rx=\"4\" fill=\"#6e7f6a\"/><rect x=\"112\" y=\"66\" width=\"26\" height=\"98\" rx=\"4\" fill=\"#3a3f45\"/><path d=\"M58 76 h14 M88 68 h14 M118 82 h14\" stroke-width=\"3\" stroke=\"#d9b23f\"/><rect x=\"44\" y=\"164\" width=\"112\" height=\"10\" rx=\"4\" fill=\"#a67c52\"/></svg>"
+ },
+ {
+  "id": "podstakannik",
+  "name": "Подстаканник",
+  "cat": "home",
+  "rarity": "common",
+  "value": [
+   50,
+   120
+  ],
+  "restore": "polish",
+  "set": "home",
+  "clues": {
+   "material": "мельхиор",
+   "weight": "средний",
+   "seller": "«Из железнодорожного буфета»",
+   "marking": "«Мстёрский завод»"
+  },
+  "story": "Чай в подстаканнике — вкус поезда: стук колёс, белая скатерть на столике, и за окном полстраны. Из такого стакана не пили — с ним путешествовали.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M70 72 h60 v72 q-30 14 -60 0 z\" fill=\"#cfe0e0\" opacity=\".8\"/><path d=\"M62 96 q-16 6 -12 22 q2 10 12 12 M138 96 q16 6 12 22 q-2 10 -12 12\" stroke-width=\"6\"/><ellipse cx=\"100\" cy=\"72\" rx=\"30\" ry=\"8\" fill=\"#b9b2a4\"/><rect x=\"62\" y=\"144\" width=\"76\" height=\"12\" rx=\"5\" fill=\"#b9b2a4\"/><path d=\"M100 156 v10\" stroke-width=\"5\"/><ellipse cx=\"100\" cy=\"170\" rx=\"26\" ry=\"7\" fill=\"#b9b2a4\"/></svg>"
+ },
+ {
+  "id": "jug",
+  "name": "Крынка со сколом",
+  "cat": "free",
+  "rarity": "junk",
+  "value": [
+   5,
+   25
+  ],
+  "restore": "clean",
+  "clues": {
+   "material": "глина",
+   "weight": "лёгкая",
+   "seller": "«Скололось на горлышке»",
+   "marking": "нет"
+  },
+  "story": "Глиняная крынка, в которой держали молоко. Скол на горлышке ещё довоенный: бабушка прошлого владельца говорила, что так молоко дольше остаётся холодным.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M78 58 h44 v14 c26 16 30 44 22 78 c-6 22 -24 32 -44 32 s-38 -10 -44 -32 c-8 -34 -4 -62 22 -78 z\" fill=\"#efe3cc\"/><path d=\"M122 66 q34 12 26 52 q-4 16 -16 20\"/><path d=\"M70 62 l-8 -6 M136 96 l10 4\" stroke-width=\"4\"/></svg>"
+ },
+ {
+  "id": "horseshoe",
+  "name": "Подкова",
+  "cat": "free",
+  "rarity": "junk",
+  "value": [
+   5,
+   25
+  ],
+  "restore": "clean",
+  "clues": {
+   "material": "ржавое железо",
+   "weight": "тяжёлая",
+   "seller": "«Со снятого сарая»",
+   "marking": "гвоздевые отверстия"
+  },
+  "story": "Её прибивали над дверью «на счастье» — судя по потёртым отверстиям, держалась лет сорок. Счастье, кажется, работало: дом до сих пор стоит.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M62 152 v-52 a38 38 0 0 1 76 0 v52\" stroke-width=\"14\" stroke=\"#8d887c\"/><path d=\"M62 152 v-52 a38 38 0 0 1 76 0 v52\" stroke-width=\"6\"/><circle cx=\"72\" cy=\"118\" r=\"4\" fill=\"#5a4632\" stroke=\"none\"/><circle cx=\"128\" cy=\"118\" r=\"4\" fill=\"#5a4632\" stroke=\"none\"/><circle cx=\"82\" cy=\"88\" r=\"4\" fill=\"#5a4632\" stroke=\"none\"/><circle cx=\"118\" cy=\"88\" r=\"4\" fill=\"#5a4632\" stroke=\"none\"/></svg>"
+ },
+ {
+  "id": "valenok",
+  "name": "Валенок (один)",
+  "cat": "free",
+  "rarity": "junk",
+  "value": [
+   5,
+   25
+  ],
+  "restore": "clean",
+  "clues": {
+   "material": "войлок",
+   "weight": "лёгкий",
+   "seller": "«Пара была. Была.»",
+   "marking": "нет"
+  },
+  "story": "Один. Второй, по семейной легенде, обменяли в девяносто третьем на банку солений — и это была выгодная сделка.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M76 38 q-12 62 -6 98 q3 26 32 26 h44 q22 0 16 -20 q-6 -16 -32 -19 l-18 -4 q-9 -42 -6 -81 z\" fill=\"#9a8d7a\"/><path d=\"M70 52 q26 10 52 2\" stroke-width=\"5\"/></svg>"
+ },
+ {
+  "id": "buttons",
+  "name": "Жестянка с пуговицами",
+  "cat": "free",
+  "rarity": "junk",
+  "value": [
+   5,
+   25
+  ],
+  "restore": "clean",
+  "clues": {
+   "material": "жесть",
+   "weight": "гремящая",
+   "seller": "«Гремит — значит полная»",
+   "marking": "из-под печенья"
+  },
+  "story": "Банка из-под печенья, полная пуговиц, которыми никто никогда не пользовался. Здесь есть пуговица от пальто, которое доносили в девяносто четвёртом.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"100\" cy=\"86\" rx=\"52\" ry=\"16\" fill=\"#b9b2a4\"/><path d=\"M48 86 v52 q52 22 104 0 v-52\" fill=\"#8d887c\"/><circle cx=\"76\" cy=\"66\" r=\"9\" fill=\"#b5533c\"/><circle cx=\"104\" cy=\"60\" r=\"8\" fill=\"#6e7f6a\"/><circle cx=\"128\" cy=\"68\" r=\"7\" fill=\"#efe3cc\"/><path d=\"M60 112 q40 12 80 0\" stroke-width=\"4\"/></svg>"
+ },
+ {
+  "id": "vhs",
+  "name": "Видеокассета",
+  "cat": "free",
+  "rarity": "junk",
+  "value": [
+   5,
+   25
+  ],
+  "restore": "clean",
+  "clues": {
+   "material": "пластик",
+   "weight": "лёгкая",
+   "seller": "«Подписана: НЕ СТИРАТЬ»",
+   "marking": "от руки «Терминатор?»"
+  },
+  "story": "На наклейке от руки: «НЕ СТИРАТЬ!!». Что записано после первых десяти минут, не знал никто — но спорить с тремя восклицательными знаками было нельзя.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"34\" y=\"66\" width=\"132\" height=\"76\" rx=\"8\" fill=\"#3a3f45\"/><rect x=\"52\" y=\"84\" width=\"96\" height=\"40\" rx=\"6\" fill=\"#efe3cc\"/><circle cx=\"78\" cy=\"104\" r=\"13\"/><circle cx=\"122\" cy=\"104\" r=\"13\"/><circle cx=\"78\" cy=\"104\" r=\"4\" fill=\"#5a4632\" stroke=\"none\"/><circle cx=\"122\" cy=\"104\" r=\"4\" fill=\"#5a4632\" stroke=\"none\"/><path d=\"M52 150 h96\" stroke-width=\"8\" stroke=\"#8d887c\"/></svg>"
+ },
+ {
+  "id": "mirror",
+  "name": "Треснувшее зеркальце",
+  "cat": "free",
+  "rarity": "junk",
+  "value": [
+   5,
+   25
+  ],
+  "restore": "polish",
+  "clues": {
+   "material": "металл, стекло",
+   "weight": "лёгкое",
+   "seller": "«Пудреница, вроде»",
+   "marking": "паутинка трещин"
+  },
+  "story": "Пудреница с треснувшим зеркальцем. По примете — к беде; но раз уж попало в лавку, пусть будет памятью о чьей-то танцплощадке в четверг.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"82\" cy=\"112\" r=\"46\" fill=\"#b5533c\"/><circle cx=\"82\" cy=\"112\" r=\"34\" fill=\"#cfe0e0\"/><path d=\"M62 92 l40 40 M96 84 l-24 52 M70 130 l30 -18\" stroke-width=\"3\"/><circle cx=\"126\" cy=\"76\" r=\"6\" fill=\"#d9b23f\"/></svg>"
+ },
+ {
+  "id": "pins",
+  "name": "Подушечка со значками",
+  "cat": "free",
+  "rarity": "common",
+  "value": [
+   50,
+   130
+  ],
+  "restore": "clean",
+  "clues": {
+   "material": "бархат, металл",
+   "weight": "лёгкая",
+   "seller": "«Дед копил всю жизнь»",
+   "marking": "«Служу лету!»"
+  },
+  "story": "Бархатная подушечка, густо утыканная значками: космонавт, яхта, «С днём рождения!» и загадочный «Служу лету». Целая биография — по цене килограмма металла.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"42\" y=\"58\" width=\"116\" height=\"88\" rx=\"10\" fill=\"#b5533c\"/><circle cx=\"72\" cy=\"86\" r=\"13\" fill=\"#efe3cc\"/><circle cx=\"110\" cy=\"78\" r=\"11\" fill=\"#d9b23f\"/><circle cx=\"134\" cy=\"104\" r=\"12\" fill=\"#6e7f6a\"/><circle cx=\"86\" cy=\"120\" r=\"12\" fill=\"#b9b2a4\"/><path d=\"M72 80 l3 4 l6 -6 M106 74 l4 4 l6 -5\" stroke-width=\"3\"/><circle cx=\"120\" cy=\"126\" r=\"8\" fill=\"#efe3cc\"/></svg>"
+ },
+ {
+  "id": "thermo",
+  "name": "Походный термос",
+  "cat": "free",
+  "rarity": "common",
+  "value": [
+   50,
+   120
+  ],
+  "restore": "clean",
+  "clues": {
+   "material": "алюминий",
+   "weight": "средний",
+   "seller": "«Держит кипяток сутки — проверял»",
+   "marking": "вмятина на дне"
+  },
+  "story": "С этим термосом ходили в походы, на рыбалку и встречать поезд. Вмятина на дне — от медведя, «а может, и сам помял», — как рассказывал владелец.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"72\" y=\"52\" width=\"56\" height=\"112\" rx=\"14\" fill=\"#b9b2a4\"/><rect x=\"80\" y=\"38\" width=\"40\" height=\"22\" rx=\"8\" fill=\"#b5533c\"/><path d=\"M72 92 h56\" stroke-width=\"4\"/><path d=\"M84 110 h32\" stroke-width=\"3\"/><path d=\"M92 164 v14 M108 164 v14\" stroke-width=\"4\"/></svg>"
+ },
+ {
+  "id": "fishing",
+  "name": "Бамбуковая удочка",
+  "cat": "free",
+  "rarity": "common",
+  "value": [
+   55,
+   130
+  ],
+  "restore": "assemble",
+  "clues": {
+   "material": "бамбук, леска",
+   "weight": "длинная, лёгкая",
+   "seller": "«Крючки в пробке»",
+   "marking": "подпись «Дяде Коле»"
+  },
+  "story": "Трёхколенка, пробка на рукояти отшлифована ладонью до блеска. На такую ловили плотву всей дачей — и каждый был уверен, что его поклёвка вот-вот.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M40 170 L160 40\" stroke-width=\"8\" stroke=\"#c8a97e\"/><path d=\"M40 170 l-8 8 M160 40 q6 -10 14 -6\" stroke-width=\"4\"/><path d=\"M166 46 q10 30 -6 50 q-6 8 -2 16\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"116\" r=\"5\" fill=\"#b9b2a4\"/><path d=\"M92 112 q12 8 0 16\" stroke-width=\"3\"/><rect x=\"60\" y=\"140\" width=\"26\" height=\"10\" rx=\"4\" fill=\"#a67c52\" transform=\"rotate(-42 73 145)\"/></svg>"
+ },
+ {
+  "id": "guitar",
+  "name": "Советская гитара",
+  "cat": "free",
+  "rarity": "epic",
+  "value": [
+   900,
+   1700
+  ],
+  "restore": "assemble",
+  "clues": {
+   "material": "дерево, струны",
+   "weight": "объёмная",
+   "seller": "«Играл в студенческом ансамбле»",
+   "marking": "этикетка внутри деки"
+  },
+  "story": "Семиструнная, с трещиной, заклеенной изнутри газетой 1974 года. В её компании пели у костра, на кухнях и в плацкарте — где угодно, лишь бы не мешали.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"100\" cy=\"128\" rx=\"46\" ry=\"40\" fill=\"#c8a97e\"/><ellipse cx=\"100\" cy=\"88\" rx=\"34\" ry=\"28\" fill=\"#c8a97e\"/><circle cx=\"100\" cy=\"122\" r=\"14\" fill=\"#3a2c1d\"/><rect x=\"94\" y=\"24\" width=\"12\" height=\"52\" rx=\"3\" fill=\"#a67c52\"/><rect x=\"86\" y=\"14\" width=\"28\" height=\"14\" rx=\"4\" fill=\"#a67c52\"/><path d=\"M96 30 v-8 M100 30 v-8 M104 30 v-8\" stroke-width=\"2\"/><path d=\"M92 96 v64 M100 96 v64 M108 96 v64\" stroke-width=\"1.5\"/></svg>"
+ },
+ {
+  "id": "chess",
+  "name": "Шахматы tournament",
+  "cat": "free",
+  "rarity": "epic",
+  "value": [
+   950,
+   1800
+  ],
+  "restore": "polish",
+  "clues": {
+   "material": "точёный камень",
+   "weight": "фигуры тяжёлые",
+   "seller": "«Доска из красного дерева»",
+   "marking": "свинец в основаниях"
+  },
+  "story": "Тяжёлые фигурки со свинцом в основаниях — такими играли «на серьёзных турнирах». Король слегка отполирован тысячей пальцев: им решались судьбы дворовых чемпионатов.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"36\" y=\"120\" width=\"128\" height=\"40\" rx=\"6\" fill=\"#a67c52\"/><rect x=\"44\" y=\"128\" width=\"22\" height=\"22\" fill=\"#a67c52\" stroke-width=\"2\"/><rect x=\"74\" y=\"128\" width=\"22\" height=\"22\" fill=\"#efe3cc\" stroke-width=\"2\"/><rect x=\"104\" y=\"128\" width=\"22\" height=\"22\" fill=\"#a67c52\" stroke-width=\"2\"/><rect x=\"134\" y=\"128\" width=\"22\" height=\"22\" fill=\"#efe3cc\" stroke-width=\"2\"/><path d=\"M84 118 q-14 -6 -12 -22 q0 -10 12 -12 q12 2 12 12 q2 16 -12 22 z M84 118 h0 l4 8 h-24 l4 -8\" fill=\"#efe3cc\"/><circle cx=\"84\" cy=\"70\" r=\"8\" fill=\"#efe3cc\"/><path d=\"M120 118 q-10 -8 -8 -24 h16 q2 16 -8 24 z M112 94 h16 l-2 -12 h-12 z\" fill=\"#3a3f45\"/><circle cx=\"120\" cy=\"72\" r=\"7\" fill=\"#3a3f45\"/></svg>"
+ },
+ {
+  "id": "pet",
+  "name": "Электронный питомец",
+  "cat": "free",
+  "rarity": "epic",
+  "value": [
+   900,
+   1600
+  ],
+  "restore": "clean",
+  "clues": {
+   "material": "пластик, брелок",
+   "weight": "крошечный",
+   "seller": "«Пищал всю дорогу, пока вёз»",
+   "marking": "пиксельный экран"
+  },
+  "story": "Его кормили на переменах всей школой по очереди. Если питомец «умирал», траур был настоящим — первый в жизни урок цифровой ответственности.",
+  "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#5a4632\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"100\" cy=\"104\" rx=\"52\" ry=\"46\" fill=\"#b5533c\"/><ellipse cx=\"100\" cy=\"100\" rx=\"38\" ry=\"30\" fill=\"#efe3cc\"/><rect x=\"76\" y=\"82\" width=\"48\" height=\"34\" rx=\"6\" fill=\"#6e7f6a\"/><circle cx=\"92\" cy=\"94\" r=\"3\" fill=\"#3a2c1d\" stroke=\"none\"/><circle cx=\"108\" cy=\"94\" r=\"3\" fill=\"#3a2c1d\" stroke=\"none\"/><path d=\"M94 104 q6 6 12 0\" stroke-width=\"3\"/><circle cx=\"80\" cy=\"130\" r=\"5\" fill=\"#d9b23f\"/><circle cx=\"100\" cy=\"132\" r=\"5\" fill=\"#d9b23f\"/><circle cx=\"120\" cy=\"130\" r=\"5\" fill=\"#d9b23f\"/><path d=\"M100 58 v-10 q0 -6 6 -6\" stroke-width=\"4\"/></svg>"
+ }
+]

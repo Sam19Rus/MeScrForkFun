@@ -1,0 +1,31 @@
+{
+ "tech": {
+  "name": "Советская электроника",
+  "need": 5,
+  "cat": "tech",
+  "bonus": "Заказы на технику платят ×1.5",
+  "effect": {
+   "orderBoostCat": "tech",
+   "mult": 1.5
+  }
+ },
+ "clocks": {
+  "name": "Мастер и приборы",
+  "need": 5,
+  "cat": "clocks",
+  "bonus": "Диапазон оценки по уликам уже на 25%",
+  "effect": {
+   "clueU": 0.75
+  }
+ },
+ "home": {
+  "name": "Уютный дом",
+  "need": 5,
+  "cat": "home",
+  "bonus": "Продажа предметов «Дом и уют» +15%",
+  "effect": {
+   "sellBoostCat": "home",
+   "mult": 1.15
+  }
+ }
+}
